@@ -239,10 +239,7 @@ e.g. parents & children
             6. “children”
         - value: value of attribute, which all correspond to the attributes of the class Page defined in the .py file
     
-    By iterating the list `children` and directly get each element’s feature `id` we are able to do this as described in the project description: 
-    
-    > “The file structure should be able to return the page-IDs of the children pages given the page-ID of the parent page and vice versa.”
-    > 
+    By iterating the list `children` and directly get each element’s feature `id` we are able to return the page-IDs of the children pages given the page-ID of the parent page and vice versa.”
 
 - MySQL
     
