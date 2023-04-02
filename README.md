@@ -28,7 +28,7 @@ There are two .py files for the whole project.
     
     1. creating three tables `inverted_index`, `keywords`, and `relationship` in an existed SQL schema `CrawlerDB`, each represents one mapping we will talk about later
     2. inserting the extracted data into the tables
-    3. exporting the data to spider results.db
+    3. exporting the data to spider results.sql
 
 Notice that [crawler.py](http://crawler.py) is the main file and it calls functions in crawler_db.py
 
@@ -108,7 +108,7 @@ In order to generate spider result.txt, we call:
 create_txt(inverted_index)
 ```
 
-Also, in order to generate spider result.db in a MySQL database form, we call:
+Also, in order to generate spider result.sql in a MySQL database form, we call:
 
 ```python
 crawler_db.export_tables()
